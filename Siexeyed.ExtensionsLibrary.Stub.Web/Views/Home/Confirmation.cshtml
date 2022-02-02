@@ -1,0 +1,32 @@
+﻿@model Siexeyed.ExtensionsLibrary.Stub.Web.Models.UserModel 
+@{
+    ViewBag.Title = "Confirmation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Confirmation</h2>
+
+
+<div class="jumbotron">
+    <h1>C# Extension Methods</h1>
+    <p class="lead">Extension methods are a powerful C# feature which are underused.</p>
+    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="row">
+        <h2>Confirmation</h2>
+        <p>
+            @Html.LabelFor(model => model.Name)
+            @Html.ValueFor(model => model.Name)
+        </p>
+        <p>
+            @Html.LabelFor(model => model.CurrentModel)
+            @Html.ValueFor(model => model.CurrentModel)
+        </p>
+        <p>
+            @Html.LabelFor(model => model.Status)
+            @Html.ValueFor(model => model.Status)
+        </p>
+    </div>
+</div>
